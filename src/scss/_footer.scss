@@ -1,0 +1,17 @@
+.footer {
+  color: #1c1c1e;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 0.2rem;
+  position: fixed;
+  //   background-color: red;
+  a {
+    color: $heading;
+    text-decoration: none;
+    &:visited {
+      color: $heading;
+    }
+  }
+}
